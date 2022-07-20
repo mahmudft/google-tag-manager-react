@@ -30,6 +30,23 @@ button {
 .cardpictureside {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.shopping-cart-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardbannerside{
+  text-align: center;
+}
+
+.cardbannerside div {
+  position: relative;
+  top: 10px;
+  right: 40px;
 }
 
 .cartpage {
@@ -39,6 +56,8 @@ button {
 
 .userOrder {
   border: 2px solid whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .userOrder > div {

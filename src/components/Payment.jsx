@@ -93,16 +93,19 @@ class Payment extends Component {
                                     </div>
                                     <p id="priceinnumber">{product.price}</p>
                                 </div>
-                                <div className="cardpictureside">
-                                    <img src={plus} alt="plus" style={{ width: "45px", height: "45px" }} />
-                                    <div>
+                                <div className="shopping-cart-right">
+                                    <div className="cardpictureside">
+                                        <img src={plus} alt="plus" style={{ width: "45px", height: "45px" }} />
+                                        <p>{product.count}</p>
+                                        <img src={minus} alt="minus" style={{ width: "45px", height: "45px" }} />
+                                    </div>
+                                    <div className="cardbannerside">
                                         <img className="banner" src={product.image} alt="product img" />
                                         <div className="arrowList">
-                                            <span className="arrow">&#60;</span>
-                                            <span className="arrow">&#62;</span>
+                                            <p className="arrow">&#60;</p>
+                                            <p className="arrow">&#62;</p>
                                         </div>
                                     </div>
-                                    <img src={minus} alt="minus" style={{ width: "45px", height: "45px" }} />
                                 </div>
                             </div>
                         </div>)

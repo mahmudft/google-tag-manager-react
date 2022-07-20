@@ -103,7 +103,7 @@ class ProductDetail extends Component {
 
                         </div>
                         <p id="price">PRICE:</p>
-                        <p id="priceinnumber">$50</p>
+                        <p id="priceinnumber">$ {this.state.item.price}</p>
 
                         <button onClick={this.addtocard}>ADD TO CART</button>
                         <p style={{ wordBreak: "break-all"}}>

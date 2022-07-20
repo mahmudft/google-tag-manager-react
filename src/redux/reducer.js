@@ -3,7 +3,7 @@ let initialState = {
     products: [{
         "id": 5,
         "name": "John Hardy Women's Legends",
-        "price": 695,
+        "price": 25,
         "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
         "category": "jewelery",
         "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
