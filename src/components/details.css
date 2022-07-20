@@ -1,0 +1,31 @@
+#price,
+#size,
+#color {
+  font-family: "Roboto Condensed";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #1d1f22;
+}
+
+#infoSection {
+  width: 20%;
+  padding-left: 10%;
+}
+
+#priceinnumber {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+button {
+  color: white;
+  background-color: #5ece7b;
+  width: 292px;
+  height: 52px;
+  border: none;
+}

@@ -1,0 +1,122 @@
+.shopping-cart {
+  display: flex;
+  flex-direction: column;
+  margin: 32px, 16px;
+  float: right;
+  background: white;
+  width: 320px;
+  position: relative;
+  height: auto;
+  width: 325px;
+  border-radius: 0px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.shoppingsize {
+    margin: 0px;
+  display: inline-flex;
+  gap: 8px;
+}
+
+.shoppingsize > p {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.shopping-cart > .order {
+  display: inline-flex;
+}
+
+.shoppingcolor {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.shoppingcolor > div {
+  width: 16px;
+  height: 16px;
+}
+
+.shoppingbanner {
+  width: 100px;
+  height: 100px;
+}
+
+.blackText {
+
+font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cartButton {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.shoppingButton {
+  height: 43px;
+  width: 140px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 16px, 32px, 16px, 32px;
+}
+
+.shoppingButton:hover {
+    border: 2px solid black;
+}
+
+
+.shoppingbanner {
+    width: 121px;
+    height: 191px;
+    padding-left: 5px;
+    padding-top: 10%;
+}
+
+.buttons {
+    display: inline-flex;
+    gap: 12px;
+}
+
+
+.shoppingpictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.normalText {
+    width: 30px;
+height: 16px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+display: flex;
+align-items: center;
+
+color: #1D1F22;
+}
+
+.viewbutton{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}

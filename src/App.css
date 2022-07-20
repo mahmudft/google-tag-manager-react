@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+
+* {
+  box-sizing: content-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.navbarCategory {
+  display: flex;
+  padding-left: 5%;
+}
+
+.navbarLogo {
+  margin: 10px;
+}
+
+.navbarEnd {
+  display: inherit;
+  flex-direction: row;
+  margin: 10px;
+  padding-right: 5%;
+}
+
+.navbarCategory > span {
+  margin: 10px;
+}
+
+.cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 5%;
+}
+
+.product {
+  border: 2px solid whitesmoke;
+}
+
+.product > .addcart {
+  position: relative;
+  padding-top: -200px;
+}
+
+.productImage {
+  width: 356px;
+  height: 338px;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: 0px;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  outline: 0px;
+  overflow: visible;
+}
+/* .select > ol {
+  
+}
+
+.select > ol > li{
+
+} */
+.productdetail {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.imageList {
+  display: flex;
+  flex-direction: column;
+}
+.imageList > img {
+  padding-bottom: 30px;
+  width: 100px;
+  height: 110px;
+}
+
+.mainImage > img {
+  padding-left: -20px;
+  width: 400px;
+  height: 500px;
+}
+
+.sizeSelector {
+  margin: 0px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.sizeSelector > p {
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.colorSelector {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.colorSelector > div {
+  width: 32px;
+  height: 32px;
+}
+
+.shoping-counter {
+  position: absolute;
+  left: 92.5%;
+  top: 21px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  border-radius: 90%;
+}
+
+/* select > option {
+
+} */

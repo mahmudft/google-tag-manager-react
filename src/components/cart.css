@@ -1,0 +1,70 @@
+button {
+  height: 43px;
+  width: 279px;
+  left: 0px;
+  top: 116px;
+  border-radius: 0px;
+  padding: 16px, 32px, 16px, 32px;
+}
+
+.cartTitle {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.banner {
+  height: 288px;
+  width: 200px;
+  padding-left: 50px;
+  border-radius: 0px;
+}
+
+.infoSection {
+  width: auto;
+}
+
+.cardpictureside {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartpage {
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+}
+
+.userOrder {
+  border: 2px solid whitesmoke;
+}
+
+.userOrder > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.addcard {
+  float: right;
+  padding-bottom: 10px;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  color: white;
+  background-color: black;
+  left: 10px;
+}
+
+.arrowList{
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 2px;
+  padding-bottom: 10px;
+}
